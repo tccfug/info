@@ -6,47 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap 101 Template</title>
 
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/main.css" rel="stylesheet">
+
+  </head>
+  <body>
     <!-- Bootstrap -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/main.css" rel="stylesheet">
 
     <div class="continer">
-    	<div class="row" id="header-image-row">
-			<header>
-		     	<img id="colderfusion" class="img-responsive" src="assets/image/colderfusion_header.jpg">
-		     </header>
-    	</div>
-    	
-    	<div class="page-header  main-center"  id="tagline-container">
-    		<header>
-    			<h1><small>Your primary source for ColdFusion information in the Twin Cities area</small></h1>
-    		</header>
-    	</div>
 
+    <cfinclude template="includes/top.html" />
 
+    <!---
+    <iframe width="225" height="570" src="http://meetu.ps/2J5X4B" frameborder="0"></iframe>
+    --->
 		<div class="row  main-center" id="maincontent">
         <div class="col-md-4">
           <h2>Jobs</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View more »</a></p>
+          <p>The Job Board is provided as a free resource to employers and developers in the Twin Cities area and beyond.</p>
+          <p><a class="btn btn-default" href="#" role="button">View more >></a></p>
         </div>
         <div class="col-md-4">
           <h2>Hosting</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View more »</a></p>
+          <p>Hosting providers located here in the Twin Cities Area. </p>
+          <p><a class="btn btn-default" href="#" role="button">View more >></a></p>
        </div>
         <div class="col-md-4">
           <h2>Shops</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View more »</a></p>
+          <p>List of companies in the area that offer ColdFusion development services.</p>
+          <p><a class="btn btn-default" href="#" role="button">View more >></a></p>
         </div>
       </div>
 
     </div>
-
-
-  </head>
-  <body>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
